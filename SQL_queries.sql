@@ -29,4 +29,3 @@ ON Student.URN = Activity.URN
 INNER JOIN Hobby
 on (Activity.Hobby_ID = Hobby.Hobby_ID)
 AND Hobby.H_Name like '%Tennis%';
--- If you want to do some more queries as the extra challenge task you can include them here
